@@ -27,7 +27,7 @@ export default function Profile() {
                     The radio arrives in the surname. A mass stops next to
                     a passive coverage. The uneasy joy eyes the automated vicar.
                     The baking lecturer dreads its harsh release. Why does the
-                    flood undergo a folded gut baliaaaaa
+                    flood undergo a folded gut 
                  </Text>
             </View>
             <View style={styles.tools}>
