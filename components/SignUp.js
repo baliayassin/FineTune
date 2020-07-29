@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TouchableHighlight, TouchableOpacity,AsyncStora
 import { AntDesign } from '@expo/vector-icons';
 import { EvilIcons } from '@expo/vector-icons';
 import { Entypo } from '@expo/vector-icons';
-import GoogleAuth from './GoogleAuth'
+import {signInAsync} from './GoogleAuth'
 import * as AppAuth from 'expo-app-auth';
 //import { NavigationContainer } from '@react-navigation/native';
 //import { createStackNavigator } from '@react-navigation/stack';
@@ -17,9 +17,9 @@ export default function SignUp()  {
     //const [googleSign, setGoogleSign] = useState(null)
     
     
-    //const signInhandler= ()=>{
-       //navigation.navigate('GoogleAuth')
-    //}
+    const signInhandler= ()=>{
+       <GoogleAuth/>
+    }
 
     
 
@@ -28,7 +28,7 @@ export default function SignUp()  {
             <Text style={styles.title}>FineTune</Text>
             <Text style={styles.header}>The celebration of creating (music)</Text>
             <Text style={styles.signUp}>Sign Up</Text>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={signInAsync}>
                 <Entypo style={styles.google} name="google-" size={24} color="black" />
             </TouchableOpacity>
             <TouchableOpacity>
