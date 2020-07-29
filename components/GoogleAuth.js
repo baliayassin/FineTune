@@ -59,6 +59,7 @@ export async function signInAsync() {
   let authState = await AppAuth.authAsync(config);
   await cacheAuthAsync(authState);
   console.log('signInAsync', authState);
+  console.log(authState.idToken);
   return authState;
 }
 

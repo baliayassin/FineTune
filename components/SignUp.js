@@ -1,9 +1,10 @@
 import React,{ useEffect, useState, Component} from 'react'
-import { View, Text, StyleSheet, TouchableHighlight, TouchableOpacity } from 'react-native'
+import { View, Text, StyleSheet, TouchableHighlight, TouchableOpacity,AsyncStorage } from 'react-native'
 import { AntDesign } from '@expo/vector-icons';
 import { EvilIcons } from '@expo/vector-icons';
 import { Entypo } from '@expo/vector-icons';
 import GoogleAuth from './GoogleAuth'
+import * as AppAuth from 'expo-app-auth';
 //import { NavigationContainer } from '@react-navigation/native';
 //import { createStackNavigator } from '@react-navigation/stack';
 

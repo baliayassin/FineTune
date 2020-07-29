@@ -31,8 +31,10 @@ export default function Profile() {
                  </Text>
             </View>
             <View style={styles.tools}>
-                <MaterialCommunityIcons style={styles.microphone} name="microphone-variant" size={24} color="black" />
-                <MaterialCommunityIcons name="piano" size={24} color="black" />
+                <MaterialCommunityIcons style={styles.microphone} name="microphone-variant"
+                 size={50} color="black" />
+                <MaterialCommunityIcons name="piano" size={50} color="black" />
+                
             </View>
 
 
@@ -93,10 +95,10 @@ const styles = StyleSheet.create({
         flex: 1,
         flexDirection: 'row',
         justifyContent: 'space-between',
+        
     },
     microphone:{
-    marginBottom:10,
-    marginRight:10,
+    
     
     }
 
