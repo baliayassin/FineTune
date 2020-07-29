@@ -20,7 +20,7 @@ export default function SignUp()  {
     const signInhandler= ()=>{
        <GoogleAuth/>
     }
-
+    
     
 
     return (

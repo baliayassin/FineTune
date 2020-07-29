@@ -3,12 +3,15 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Profile from './components/Profile'
 import SignUp from './components/SignUp'
+import GoogleAuth from './components/FacebookAuth'
+import FacebookAuth from './components/FacebookAuth';
+
 
 export default function App() {
   return (
     <View style={styles.container}>
 
-      <SignUp />
+      <SignUp/>
       <StatusBar style="auto" />
 
     </View>
